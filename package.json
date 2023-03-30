@@ -1,9 +1,15 @@
 {
-  "name": "draggable-block",
-  "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
+  "name": "draggable-element",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
   "devDependencies": {
-    "typescript": "^4.2.4"
+    "typescript": "^4.9.3",
+    "vite": "^4.2.0"
   }
 }
